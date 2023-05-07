@@ -18,4 +18,8 @@ router.post("/login", loginController);
 //Forgot Password || POST
 router.post("/forgot-password", forgotPasswordController);
 
+// Search || POST
+router.post("/search", searchController);
+
+
 export default router;
